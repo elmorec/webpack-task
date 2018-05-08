@@ -1,8 +1,11 @@
 {
   "name": "webpack-task",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "wt": "./bin/wt"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,30 @@
   "bugs": {
     "url": "https://github.com/elmorec/webpack-task/issues"
   },
-  "homepage": "https://github.com/elmorec/webpack-task#readme"
+  "homepage": "https://github.com/elmorec/webpack-task#readme",
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "chalk": "^2.4.1",
+    "circular-dependency-plugin": "^4.4.0",
+    "copy-webpack-plugin": "^4.5.0",
+    "css-loader": "^0.28.11",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^6.0.0",
+    "html-loader": "^0.5.5",
+    "html-res-webpack-plugin": "^4.0.0",
+    "node-sass": "^4.9.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-loader": "^2.1.5",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.0.1",
+    "silent-error": "^1.1.0",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^3.5.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
 }

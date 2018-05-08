@@ -1,0 +1,35 @@
+{
+  "root": "${root}",
+  "pageDir": "${pageDir}",
+  "outDir": "${outDir}",
+  "assets": [
+    "assets",
+    "favicon.ico"
+  ],
+  "buildOptions": {
+    "progress": true,
+    "showCircularDependencies": true,
+    "outputHashing": "all",
+    "deployUrl": "",
+    "extractCss": true,
+    "sourcemaps": true,
+    "verbose": false,
+    "target": "production",
+    "deleteOutputPath": true
+  },
+  "pageOptions": {
+    "defaultName": "index",
+    "defaultTitle": "Untitled",
+    "defaultTemplate": "",
+    "inlineJs": false,
+    "inlineCss": false
+  },
+  "serveOptions": {
+    "host": "0.0.0.0",
+    "port": 80
+  },
+  "debug": {
+    "inject": []
+  },
+  "pageConfig": "${pageConfig}"
+}
