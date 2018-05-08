@@ -12,6 +12,7 @@
   "devDependencies": {
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
     "pug": "^2.0.3",
@@ -22,6 +23,6 @@
     "typescript": "^2.7.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^2.11.2"
   }
 }
