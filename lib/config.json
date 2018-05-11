@@ -15,7 +15,8 @@
     "sourcemaps": true,
     "verbose": false,
     "target": "production",
-    "deleteOutputPath": true
+    "deleteOutputPath": true,
+    "base64Limit": 4000
   },
   "pageOptions": {
     "defaultName": "index",
